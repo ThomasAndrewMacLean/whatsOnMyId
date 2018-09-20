@@ -1,5 +1,7 @@
 # whatsonmyid
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ThomasAndrewMacLean/whatsOnMyId.svg)](https://greenkeeper.io/)
+
 ## CLI Commands
 
 ``` bash
