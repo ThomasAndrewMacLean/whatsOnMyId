@@ -1,5 +1,11 @@
 .home {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+    padding: 56px 20px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.canvas {
+    margin: 5rem auto;
+    border: 3px solid #87cea3;
+    width: 800px;
 }
