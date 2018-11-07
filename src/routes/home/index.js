@@ -59,7 +59,7 @@ class Home extends Component {
             x => x.Type === "WORD"
           );
           ctx.clearRect(0, 0, canvas.width, canvas.height);
-          
+
           const positions = words.map(x => ({
             left: x.Geometry.BoundingBox.Left,
             right: x.Geometry.BoundingBox.Left + x.Geometry.BoundingBox.Width,
@@ -89,7 +89,9 @@ class Home extends Component {
             ctx.fillText(
               word.DetectedText,
               canvas.width * word.Geometry.BoundingBox.Left,
-              canvas.height * word.Geometry.BoundingBox.Top
+              canvas.height *
+                (word.Geometry.BoundingBox.Top +
+                  word.Geometry.BoundingBox.Height)
             );
           });
           //debugger;
